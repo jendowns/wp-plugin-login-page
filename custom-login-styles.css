@@ -1,0 +1,130 @@
+* { box-sizing: border-box; }
+body {
+  background-position: center top no-repeat;
+  background-image: linear-gradient(to bottom, rgba(54, 184, 184, 0.8) 0%, rgba(54, 184, 184, 0.8) 100%), url(/wp-content/plugins/custom-login-10up/img/bg-cover.jpeg);
+  background-size: cover;
+  font-size: 10px;
+  margin: 0;
+}
+.login--10up .screen-reader {
+  position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+  border: 0;
+}
+.login__flex--column {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.login__flex--row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.login__wrapper {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  width: 95%;
+  max-width: 640px;
+  margin-top: 50px;
+  border-top: 30px solid #303030;
+  position: relative;
+}
+.login__logo {
+  background: url("/wp-content/plugins/custom-login-10up/img/10up-logo-full.svg") center no-repeat #303030;
+  background-size: 50%;
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  background-color: #303030;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  margin-left: -45px;
+}
+.login--10up h1 {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.login__error {
+  font-size: 1rem;
+  font-family: 'Merriweather', serif;
+  color: #B53234;
+}
+.login--10up .login-username,
+.login--10up .login-password {
+  margin-bottom: 2.5rem;
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+}
+.login--10up p:not(.login-remember) label {
+  font-size: 1rem;
+  color: #545353;
+  font-weight: 400;
+  white-space: nowrap;
+  width: 200px;
+  padding-left: 1.4rem;
+  line-height: 5.7rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.login--10up .login-remember {
+  margin-bottom: 2.5rem;
+}
+.login--10up label {
+  font-family: 'Merriweather', serif;
+}
+.login--10up input {
+  font-family: 'Open Sans', sans-serif;
+}
+.login--10up .login-remember label {
+  font-size: 1rem;
+  color: #545353;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.login--10up .input {
+  padding: 0 0 0 200px;
+  line-height: 5.7rem;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  transition: all .2s 0 linear;
+  border: 2px solid #fff;
+  width: 100%;
+}
+.login--10up input:focus {
+  border: 2px solid #54cdcd;
+}
+.login--10up #wp-submit {
+  display: inline-block;
+  padding: .6em 3em;
+  background-color: #B53234;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #fff;
+  text-transform: uppercase;
+  padding: .8em 2em;
+  margin-top: 0;
+  margin-left: 0;
+  transition: background-color .2s linear;
+  border: 0;
+}
+.login--10up #wp-submit:hover,
+.login--10up #wp-submit:focus {
+  background-color: #a12c2e;
+  cursor: pointer;
+}
